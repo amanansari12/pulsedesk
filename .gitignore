@@ -1,0 +1,66 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Python
+
+**pycache**/
+*.py[cod]
+
+# Virtual environment
+
+.venv/
+
+# Environment / secrets
+
+.env
+.env.*
+
+# Testing / coverage
+
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# IDE
+
+.vscode/
+.idea/
+
+# OS
+
+.DS_Store
+Thumbs.db
+
+# Logs
+
+*.log
+
+# Build / packaging
+
+build/
+dist/
+*.egg-info/
+
+# Local database
+
+*.db
+*.sqlite
+*.sqlite3
+
+# Temporary files
+
+*.tmp
+*.bak
+
+# Docker local data
+
+docker-data/
+docker-volumes/
+
