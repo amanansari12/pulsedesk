@@ -9,7 +9,6 @@ It does not contain database models or business logic.
 
 from collections.abc import AsyncGenerator
 
-from sqlalchemy import false
 from sqlalchemy.ext.asyncio import AsyncSession, async_sessionmaker, create_async_engine
 
 from app.config import settings
@@ -23,7 +22,7 @@ from app.config import settings
 # Pydantic Settings configuration.
 engine = create_async_engine(
     settings.database_url,
-    echo=false,
+    echo=False,
 )
 
 # Create a factory for generating AsyncSession objects.
